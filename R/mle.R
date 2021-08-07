@@ -55,6 +55,8 @@ mle.run <- function(par,
 }
 
 best.fits <- function(datasets, distributions, criteria='A', nrep = 100, verbose=FALSE, ...){
+  max.nparams <- max(sapply(distributions, FUN = function(x) x$nparams))
+
   for(dataset in datasets){
 
     if(verbose) { print(paste('Running for dataset',dataset$name)) }
