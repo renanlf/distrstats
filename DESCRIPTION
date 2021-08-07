@@ -1,0 +1,13 @@
+Package: distrstats
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Renan L. Fernandes
+Maintainer: Renan L. Fernandes <leandrorenanf@gmail.com>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: Do not use this outside of our research group.
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  goftest
